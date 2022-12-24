@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ysl.mk
+    $(LOCAL_DIR)/xtended_ysl.mk
+
+COMMON_LUNCH_CHOICES := \
+    xtended_ysl-user \
+    xtended_ysl-userdebug \
+    xtended_ysl-eng
